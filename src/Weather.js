@@ -68,7 +68,11 @@ export default function Weather() {
           </div>
         </div>
       </div>
+        
     </div>
+
   );
 }
-
+<div>
+ <small> <a href="https://github.com/Deblapin/weather-react" target="_blank">Open-source code</a> by Debora Lapin🙋
+</small> </div>
