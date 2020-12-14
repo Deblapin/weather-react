@@ -1,17 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import Weather from "./Weather";
+
+import "./App.css";
 
 
-function Weather() {
+function App() {
   return (
     <div className="App">
-      <App />
-      <p><a href="https://github.com/Deblapin/My-Weather-app" target="_blank"
-      class="opensourcelink" id="opensource">Open-source code
-    </a> by Debora Lapin
-    </p>
+      <Weather />
     </div>
     
   );
