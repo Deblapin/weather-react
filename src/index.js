@@ -9,8 +9,7 @@ function App() {
   return (
     <div className="App">
       <Weather />
-       <small> <a href="https://github.com/Deblapin/weather-react" target="_blank">Open-source code</a> by Debora Lapin🙋
-</small> 
+       
 </div>
 
   );

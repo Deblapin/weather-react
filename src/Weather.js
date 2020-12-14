@@ -13,6 +13,7 @@ export default function Weather() {
   };
 
   return (
+    <div className="weather-app-wrapper">
     <div className="weather-app">
       <div className="Weather">
         <form className="mb-3">
@@ -68,11 +69,10 @@ export default function Weather() {
           </div>
         </div>
       </div>
-        
     </div>
-
+<small> <a href="https://github.com/Deblapin/weather-react" target="_blank">Open-source code</a> by Debora Lapin🙋
+</small> 
+</div>
   );
 }
-<div>
- <small> <a href="https://github.com/Deblapin/weather-react" target="_blank">Open-source code</a> by Debora Lapin🙋
-</small> </div>
+
