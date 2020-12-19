@@ -3,14 +3,13 @@ import "./App.css";
 import axios from "axios";
 
 export default function Weather() {
-  const [ready,setReady]=useState(false);
-  const [weatherData, setWeatherData] = useState({});
+  const [weatherData, setWeatherData] = useState({ ready: false });
   function handleResponse(response) {
-    console.log(response.data);
-    setWeatherData({
-      
-      city: response.data.name,
     
+    console.log(response.data);
+    setWeatherData({ 
+      ready:true,
+      city: response.data.name,
       description: response.data.weather[0].description,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
@@ -18,9 +17,9 @@ export default function Weather() {
       visibility: response.data.visibility,
       date: "Wednesday 07:00"
     });
-    setReady(true);
+
   }
-  if (ready) {
+  if (weatherData.ready) {
     return (
       <div className="weather-app-wrapper">
       <div className="weather-app">
