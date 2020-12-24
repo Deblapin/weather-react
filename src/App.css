@@ -35,6 +35,12 @@ li:first-letter {
   border: 1px solid #6284a3;
   border-radius: 5px;
 }
+.WeatherInfo canvas {
+  height: 65px;
+  width: 65px;
+  margin-top: 15px;
+  display: inline-block;
+}
 
 .weather-app {
   border: 1px solid #dadde1;
@@ -94,12 +100,6 @@ li:first-letter {
   height: 15px;
   line-height: 15px;
   padding-top: 7px;
-}
-
-.weather-forecast img {
-  display: block;
-  margin: 0 auto;
-  max-width: 38px;
 }
 
 .weather-forecast-temperature {

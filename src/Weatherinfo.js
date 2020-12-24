@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
 
 export default function WheaterInfo(props){
     return ( <div className="WeatherInfo">
@@ -8,6 +9,7 @@ export default function WheaterInfo(props){
             <ul className="header">
               <li>Last updated: <FormattedDate date={props.data.date} /></li>
               <li className="text-capitalize">{props.data.description}</li>
+            <li className="float-center"><WeatherIcon code={props.data.icon} /></li>
             </ul>
           </div>
 
@@ -24,7 +26,7 @@ export default function WheaterInfo(props){
           <div className="overview">
             <div className="col">
               <ul>
-                <li> wind: {props.data.wind} km/h</li>
+                <li> wind: {Math.round(props.data.wind)} km/h</li>
               </ul>
             </div>
             <div className="col">
@@ -34,7 +36,7 @@ export default function WheaterInfo(props){
             </div>
             <div className="col">
               <ul>
-                <li>visibility: {props.data.visibility / 1000}km</li>
+                <li>visibility: {props.data.visibility/1000}{" "}km</li>
               </ul>
             </div>
           </div>
