@@ -70,10 +70,11 @@ li:first-letter {
   line-height: 1;
 }
 
-.units {
+.unit {
   position: relative;
   top: -24px;
   font-size: 14px;
+  font-weight: 500;
 }
 
 .active {
