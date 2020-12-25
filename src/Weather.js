@@ -65,7 +65,9 @@ export default function Weather(props) {
           </form>
           <Weatherinfo data={weatherData}/>
 
-          </div></div></div>
+          </div>ola</div>
+          
+          </div>
     );
   } else {
    search();
