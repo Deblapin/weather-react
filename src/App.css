@@ -2,9 +2,7 @@
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
 }
-h1 {
-  text-align: center;
-}
+
 li {
   list-style: none;
 }
@@ -38,11 +36,8 @@ li:first-letter {
   height: 65px;
   width: 65px;
   margin-top: 15px;
-  display: inline-block;
 }
-.Weather {
-  text-align: center;
-}
+
 .weather-app {
   border: 1px solid #dadde1;
   border-radius: 5px;
@@ -53,21 +48,17 @@ li:first-letter {
 .weather-app-wrapper {
   max-width: 400px;
   margin: 15px auto;
+  text-align: center;
 }
-
 .row {
   font-size: 13px;
-}
-
-.temperature-now {
-  position: relative;
-  right: -20px;
-  text-align: center;
 }
 
 .temperature-now strong {
   font-size: 50px;
   line-height: 1;
+  position: relative;
+  right: -20px;
 }
 
 .unit {

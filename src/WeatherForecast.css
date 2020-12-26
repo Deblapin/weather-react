@@ -6,5 +6,7 @@
 }
 .WeatherForecast {
   margin: 20px 0;
-  text-align: center;
+}
+.col-2 {
+  max-width: none;
 }
