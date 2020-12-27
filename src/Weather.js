@@ -69,7 +69,7 @@ export default function Weather(props) {
           
           <WeatherForecast city={weatherData.city}/>
           </div>
-          <small> <a href="https://github.com/Deblapin/weather-react" target="_blank">Open-source code</a> by Debora Lapin🙋
+          <small> <a href="https://github.com/Deblapin/weather-react">Open-source code</a> by Debora Lapin🙋
 </small>
           </div>
     );
