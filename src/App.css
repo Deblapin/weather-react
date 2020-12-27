@@ -61,7 +61,11 @@ li:first-letter {
   position: relative;
   right: -18px;
 }
-
+.loader {
+  text-align: center;
+  position: relative;
+  bottom: -300px;
+}
 .unit {
   position: relative;
   top: -24px;

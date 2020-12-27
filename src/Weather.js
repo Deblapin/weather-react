@@ -3,6 +3,7 @@ import Weatherinfo from "./Weatherinfo";
 import WeatherForecast from "./WeatherForecast";
 import "./App.css";
 import axios from "axios";
+import Loader from 'react-loader-spinner';
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -75,6 +76,8 @@ export default function Weather(props) {
     );
   } else {
    search();
-    return "Loading...";
+    return (
+      <Loader className="loader" type="ThreeDots" color="#FCA311" height={100} width={100}  />
+     );
   }
 }
