@@ -9,7 +9,6 @@ export default function Weather(props) {
   const [city, setCity]=useState(props.defaultCity)
   function handleResponse(response) {
     
-    console.log(response.data);
     setWeatherData({ 
       icon: response.data.weather[0].icon,
       ready:true,
@@ -70,6 +69,8 @@ export default function Weather(props) {
           
           <WeatherForecast city={weatherData.city}/>
           </div>
+          <small> <a href="https://github.com/Deblapin/weather-react" target="_blank">Open-source code</a> by Debora Lapin🙋
+</small>
           </div>
     );
   } else {

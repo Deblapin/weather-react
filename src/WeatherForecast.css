@@ -1,12 +1,9 @@
 .WeatherForecast canvas {
   display: block;
-  height: 45px;
-  width: 45px;
+  height: 50px;
+  width: 50px;
   margin-top: 5px;
 }
 .WeatherForecast {
   margin: 20px 0;
-}
-.col-2 {
-  max-width: none;
 }
