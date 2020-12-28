@@ -1,8 +1,8 @@
 .WeatherForecast canvas {
   display: block;
-  height: 50px;
-  width: 50px;
+  width: 100%;
   margin-top: 5px;
+  size: 60px;
 }
 .WeatherForecast {
   margin: 20px 0;
